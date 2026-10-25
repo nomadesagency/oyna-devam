@@ -1,0 +1,41 @@
+sleep - NOTICE / UYARI
+
+ENGLISH
+This software is provided "AS IS", without warranty of any kind, express or implied, including but not
+limited to fitness for a particular purpose, reliability, or non-infringement. You use it entirely at your
+own risk. To the maximum extent permitted by law, the authors and distributors are not liable for any
+damage, data loss, lost work, cost, account or usage-limit consequences, or any other harm arising from
+its installation or use.
+
+What it does to your computer (read before installing):
+  - Adds hooks and a permission rule to ~/.claude/settings.json (a backup is made first).
+  - Copies its scripts to ~/.claude/sleep/ and keeps a log there.
+  - Optionally installs one sudoers rule (/etc/sudoers.d/claude-sleep) that lets only
+    "pmset schedule wake" / "pmset schedule cancel wake" run without a password.
+  - Can put the Mac to sleep, wake it at a scheduled time, turn the display off and keep it awake (caffeinate).
+It lets Claude Code run commands without asking for each approval while a task runs (depending on the
+permission mode you pick). Only use it on tasks and folders you trust, keep backups of anything important,
+and try it first on a small, non-critical task.
+
+You can remove everything at any time: double-click uninstall.command (or run: bash uninstall.sh).
+
+Font: the user guide PDF embeds the font "Space Grotesk", Copyright 2020 The Space Grotesk Project Authors,
+licensed under the SIL Open Font License 1.1 (https://openfontlicense.org).
+
+The logo and tagline on the last page of the user guide are the property of their owner; no right to use them is granted by this package.
+
+This project is independent. It is not affiliated with, endorsed or sponsored by Anthropic. "Claude" and
+"Claude Code" are trademarks of Anthropic, PBC. Nothing in this package is legal, security or professional
+advice.
+
+TURKCE
+Bu yazilim "OLDUGU GIBI" sunulur; acik ya da zimni hicbir garanti verilmez. Kullanim tamamen sizin
+sorumlulugunuzdadir. Yasalarin izin verdigi azami olcude, yazilimi yapanlar ve dagitanlar; kurulum ya da
+kullanimdan dogan hicbir zarardan, veri ya da is kaybindan, maliyetten, hesap veya kullanim limiti
+sonucundan sorumlu tutulamaz.
+
+Bilgisayariniza yaptigi degisiklikler icin yukaridaki listeye bakin. Kurmadan once readme.md ve
+kullanim kilavuzu PDF dosyasini okuyun, onemli islerinizin yedegini alin ve once kucuk, onemsiz bir
+gorevle deneyin. Her sey istediginiz an kaldirilabilir.
+
+Bu proje bagimsizdir; Anthropic ile baglantili degildir, onun onayi ya da destegi yoktur.
