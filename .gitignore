@@ -1,0 +1,12 @@
+# Word and other office files are never published: the user guides ship as PDF only.
+*.[dD][oO][cC]*
+*.[dD][oO][tT]*
+*.[oO][dD][tT]
+*.[oO][tT][tT]
+*.[rR][tT][fF]
+*.[pP][aA][gG][eE][sS]
+*.[xX][lL][sS]*
+*.[pP][pP][tT]*
+*.[kK][eE][yY]
+*.[nN][uU][mM][bB][eE][rR][sS]
+.DS_Store
