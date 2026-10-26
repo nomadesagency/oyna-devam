@@ -1,8 +1,8 @@
-# sleep
+# oyna-devam
 
-**TR:** Claude Code görevin sırasında kullanım limiti dolmaya yaklaşınca bilgisayarı uyutur, limit sıfırlanınca uyandırır ve görevi aynı oturumdan devam ettirir. macOS ve Windows için iki ayrı paket.
+**TR:** Claude Code ile uzun bir görevi kullanım limitlerine takılmadan sürdür. Limit dolmaya yaklaşınca görev bekletilir (bilgisayar uyutulur), limit sıfırlanınca bilgisayar uyandırılır ve görev aynı oturumdan kaldığı yerden devam eder. macOS ve Windows için iki ayrı paket.
 
-**EN:** While a Claude Code task runs, this puts the computer to sleep when the usage limit is nearly full, wakes it when the limit resets, and resumes the task in the same session. Two separate packages: macOS and Windows.
+**EN:** Run long Claude Code tasks without being stopped by usage limits. When the limit is nearly full the task is held (the computer is put to sleep); when the limit resets the computer wakes and the task continues in the same session. Two separate packages: macOS and Windows.
 
 ## İndirme / Download
 
